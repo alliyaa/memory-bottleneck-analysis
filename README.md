@@ -79,8 +79,8 @@ Data saved to `results/logs/*.csv`
 Metrics tracked:
 - Peak GPU memory (MB)
 - Training throughput (samples/sec, tokens/sec)
-- **🔥 Estimated memory bandwidth (GB/s)**
-- **🔥 Bandwidth utilization (% of theoretical peak)**
+- Estimated memory bandwidth (GB/s)**
+- Bandwidth utilization (% of theoretical peak)**
 - Memory breakdown (params, activations, optimizer)
 - Traffic breakdown (where bandwidth goes)
 
@@ -127,7 +127,7 @@ project1_memory_bottleneck/
 │   └── precision_test.py         # FP16 optimization
 ├── utils/
 │   ├── model.py                  # GPT model
-│   ├── profiler.py               # 🔥 WITH BANDWIDTH ESTIMATION
+│   ├── profiler.py               # WITH BANDWIDTH ESTIMATION
 │   └── plotting.py               # bandwidth plots included
 ├── results/
 │   ├── logs/                     # CSV data
